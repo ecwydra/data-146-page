@@ -18,6 +18,12 @@ I would talk about dependencies required and perhaps why I chose certain technol
 
 Brief statement on how to run shell script or install dependencies to set up environment.
 
+```
+  brew update
+  brew install tensorflow
+  python example.py
+  ```
+
 # Testing and API references
 
 What tests are provided and what APIs are being accessed (if it makes sense to put them here).
