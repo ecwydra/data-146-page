@@ -6,6 +6,10 @@ This is an example of what a readme could look like.
 
 Here is where I might put the motivation for my project.
 
+## Dog Pictures
+
+![](carmen.png)
+
 # Dependencies
 
 I would talk about dependencies required and perhaps why I chose certain technologies over others.
@@ -44,3 +48,8 @@ Are there any unsuccessful builds.
 Who is allowed to contribute.
 
 # Licensing 
+
+Different kinds of licenses appear here.
+
+
+
