@@ -28,6 +28,9 @@ Brief statement on how to run shell script or install dependencies to set up env
 
 What tests are provided and what APIs are being accessed (if it makes sense to put them here).
 
+1. [example link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+2. another way to link: https://www.ioccc.org/
+
 # Conceptual Resources
 
 If this were a readme attached to a repo with a word2vec implementation, I would attach a study here so people could read more about it.
