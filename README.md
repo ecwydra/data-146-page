@@ -10,6 +10,10 @@ Here is where I might put the motivation for my project.
 
 I would talk about dependencies required and perhaps why I chose certain technologies over others.
 
+* tensorflow
+* npm
+* colorgram
+
 # How to run my program
 
 Brief statement on how to run shell script or install dependencies to set up environment.
