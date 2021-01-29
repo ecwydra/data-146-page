@@ -25,6 +25,6 @@ semester and new technologies I've started working with.
 
 * [making brew compatible with M1 chip](https://stackoverflow.com/questions/64963370/error-cannot-install-in-homebrew-on-arm-processor-in-intel-default-prefix-usr)
 
-# New Technologies
+# Technologies
 
 * pycharm
