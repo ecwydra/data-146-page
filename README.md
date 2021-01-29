@@ -1,55 +1,30 @@
-# Project Title
+# Introduction to Data Science
 
-This is an example of what a readme could look like.
+Welcome to my data science class page! Here you'll find the work I've completed (exercises and projects) as well as resources I've found helpful throughout the
+semester and new technologies I've started working with.
 
-# Motivation 
+# Projects
 
-Here is where I might put the motivation for my project.
+## Project 1 | Site Selection
 
-## Dog Pictures
+[Project 1 Specs](https://tyler-frazier.github.io/dsbook/siteselect.html)
 
-![](carmen.png)
+## Project 2 | Generating Synthetic Populations
 
-# Dependencies
+[Project 2 Specs](https://tyler-frazier.github.io/dsbook/synpop.html)
 
-I would talk about dependencies required and perhaps why I chose certain technologies over others.
+## Project 3 | Transportation Model
 
-* tensorflow
-* npm
-* colorgram
+[Project 3 Specs](https://tyler-frazier.github.io/dsbook/gravity.html)
 
-# How to run my program
+# Exercises
 
-Brief statement on how to run shell script or install dependencies to set up environment.
+1. 
 
-```
-  brew update
-  brew install tensorflow
-  python example.py
-  ```
+# Resources
 
-# Testing and API references
+* [making brew compatible with M1 chip](https://stackoverflow.com/questions/64963370/error-cannot-install-in-homebrew-on-arm-processor-in-intel-default-prefix-usr)
 
-What tests are provided and what APIs are being accessed (if it makes sense to put them here).
+# New Technologies
 
-1. [example link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-2. another way to link: https://www.ioccc.org/
-
-# Conceptual Resources
-
-If this were a readme attached to a repo with a word2vec implementation, I would attach a study here so people could read more about it.
-
-# Build Statuses
-
-Are there any unsuccessful builds.
-
-# Contribution Guidelines
-
-Who is allowed to contribute.
-
-# Licensing 
-
-Different kinds of licenses appear here.
-
-
-
+* pycharm
