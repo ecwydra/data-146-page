@@ -19,7 +19,7 @@ semester and new technologies I've started working with.
 
 # Exercises
 
-1. 
+1. [02/03/2021 -- Introduction to Python](exercise_1.md)
 
 # Resources
 
