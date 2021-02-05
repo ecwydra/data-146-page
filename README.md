@@ -19,7 +19,8 @@ semester and new technologies I've started working with.
 
 # Exercises
 
-1. [02/03/2021 -- Introduction to Python](exercise_1.md)
+0. [02/05/2021 -- Introduction to Python](exercise_1.html)
+1. [02/08/2021 -- Gapminder Data]
 
 # Resources
 
