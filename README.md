@@ -5,18 +5,6 @@ semester and new technologies I've started working with.
 
 # Projects
 
-## Project 1 | Site Selection
-
-[Project 1 Specs](https://tyler-frazier.github.io/dsbook/siteselect.html)
-
-## Project 2 | Generating Synthetic Populations
-
-[Project 2 Specs](https://tyler-frazier.github.io/dsbook/synpop.html)
-
-## Project 3 | Transportation Model
-
-[Project 3 Specs](https://tyler-frazier.github.io/dsbook/gravity.html)
-
 # Exercises
 
 1. [02/08/2021 -- Gapminder Data](exercise_1.html)
