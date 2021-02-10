@@ -5,6 +5,8 @@ semester and new technologies I've started working with.
 
 # Projects
 
+1. [Project 1](...)
+
 # Exercises
 
 1. [02/08/2021 -- Gapminder Data](exercise_1.html)
