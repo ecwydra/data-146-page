@@ -5,7 +5,7 @@ semester and new technologies I've started working with.
 
 # Projects
 
-1. [Project 1](...)
+1. [Project 1](project1.html)
 
 # Exercises
 
