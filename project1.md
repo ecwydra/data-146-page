@@ -74,7 +74,11 @@ data_filtered_place = data_filtered_year[data_filtered_place_idx]
 sorted_data = data_filtered_place.sort_values('pop_gdpPercap_multiplied', ascending=True)
 ```
 
+Dataframe created after indexing and sorting:
+
 ![alt text](question_5b.png)
+
+Graph displaying results:
 
 ![alt text](question_5.png)
 
