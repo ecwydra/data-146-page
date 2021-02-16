@@ -74,6 +74,10 @@ data_filtered_place = data_filtered_year[data_filtered_place_idx]
 sorted_data = data_filtered_place.sort_values('pop_gdpPercap_multiplied', ascending=True)
 ```
 
+![alt text](question_5b.png)
+
+![alt text](question_5.png)
+
 ## Question 6
 * & is the "and" operator and used to evaluate if two boolean statements are true. If both/all statements are true, only then does it return true. Otherwise it returns false.
 * == is the equivalence operator and is used to evaluate if two objects are identical to each other in terms of value. If the two values are identical, then the operator returns true, otherwise false.
