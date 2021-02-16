@@ -83,10 +83,10 @@ Graph displaying results:
 ![alt text](question_5.png)
 
 ## Question 6
-* & is the "and" operator and used to evaluate if two boolean statements are true. If both/all statements are true, only then does it return true. Otherwise it returns false.
-* == is the equivalence operator and is used to evaluate if two objects are identical to each other in terms of value. If the two values are identical, then the operator returns true, otherwise false.
-* | is the "or" operator and is used to evaluate if one of two boolean statements is true. As long as one or more of the statements is true it returns true. Otherwise it returns false.
-* ^ is the "XOR" operator (exclusive or) and is used to evaluate if only one of the boolean statements is true. If more than one statement is true it returns false. It only returns true if one boolean statement is true.
+* '&' is the "and" operator and used to evaluate if two boolean statements are true. If both/all statements are true, only then does it return true. Otherwise it returns false.
+* '==' is the equivalence operator and is used to evaluate if two objects are identical to each other in terms of value. If the two values are identical, then the operator returns true, otherwise false.
+* '|' is the "or" operator and is used to evaluate if one of two boolean statements is true. As long as one or more of the statements is true it returns true. Otherwise it returns false.
+* '^' is the "XOR" operator (exclusive or) and is used to evaluate if only one of the boolean statements is true. If more than one statement is true it returns false. It only returns true if one boolean statement is true.
 
 ```python
 expression_1 = "Dogs"
