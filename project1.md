@@ -48,7 +48,7 @@ data = pd.read_csv('gapminder.tsv', sep = '\t')
 data.year.unique()
 ```
 
-Stretch question: I figured out how many entries that would be by calculating the amount of unique countries there were in the data frame. This number ended up being 142. 142 times 2 (for each year that would be added) is 284, so the amount of additional entries would be 284.
+<font color='red'>Stretch question:</font> I figured out how many entries that would be by calculating the amount of unique countries there were in the data frame. This number ended up being 142. 142 times 2 (for each year that would be added) is 284, so the amount of additional entries would be 284.
 
 ## Question 4
 I found the lowest life expectancy using the min() function. In order to figure out why the life expectancy was this low, I indexed the data frame to find out which country had the lowest life expectancy. My explanation is that life expectancy was this low because the Rwandan Civil War was taking place. This would lower the life expectancy given the amount of people that died during the way.
@@ -76,7 +76,7 @@ data_filtered_place = data_filtered_year[data_filtered_place_idx]
 sorted_data = data_filtered_place.sort_values('pop_gdpPercap_multiplied', ascending=True)
 ```
 
-Stretch question: Spain is the country that had the greatest increase from 2002 to 2007. I calculated this by subsetting my original data variable for the year 2002, getting the difference for each country from 2002 to 2007, and analyzing the results. Spain's increase was around 4,000, which was the highest out of all the countries.
+<font color='red'>Stretch question:</font> Spain is the country that had the greatest increase from 2002 to 2007. I calculated this by subsetting my original data variable for the year 2002, getting the difference for each country from 2002 to 2007, and analyzing the results. Spain's increase was around 4,000, which was the highest out of all the countries.
 
 Dataframe created after indexing and sorting:
 
@@ -117,7 +117,7 @@ print(data.loc[:5])
 print(data.iloc[:5])
 ```
 
-Stretch question: I got all observations from a series of columns still using iloc and loc, but specifying which column, or variable, I want to extract the observations from. `data.country.iloc[:5]` gets the first 5 observations under the variable `country`. In order to get all the observations, I would do `data.country.iloc[:]`.
+<font color='red'>Stretch question:</font> I got all observations from a series of columns still using iloc and loc, but specifying which column, or variable, I want to extract the observations from. `data.country.iloc[:5]` gets the first 5 observations under the variable `country`. In order to get all the observations, I would do `data.country.iloc[:]`.
 
 ## Question 8
 An API is access point to a server/database. It generally has documented protocols for get and send requests. A programmer might want data from a particular server, the API will tell the programmer how to access that data. Once the data is requested, the API will communicate its response to the machine the programmer is working on. The example for how to construct an API request, pull data, write to local file, etc. is below. I used the requests library in order to get the data from the url where the data is located. I give the path to the new file I created, open the file I got from the requests library, write the requested data to the new file, and use the pandas library to read the data into a new data frame.
