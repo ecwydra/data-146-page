@@ -19,6 +19,7 @@ semester and new technologies I've started working with.
 * [indexing with pandas functions](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html)
 * [understanding APIs](https://medium.com/@perrysetgo/what-exactly-is-an-api-69f36968a41f)
 * [why do indices start at 0?](https://medium.com/analytics-vidhya/array-indexing-0-based-or-1-based-dd89d631d11c)
+* [switch statement in python](https://stackoverflow.com/questions/60208/replacements-for-switch-statement-in-python)
 
 # Technologies
 
