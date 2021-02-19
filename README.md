@@ -18,6 +18,7 @@ semester and new technologies I've started working with.
 * [iloc and loc distinction](https://www.analyticsvidhya.com/blog/2020/02/loc-iloc-pandas/)
 * [indexing with pandas functions](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html)
 * [understanding APIs](https://medium.com/@perrysetgo/what-exactly-is-an-api-69f36968a41f)
+* [why do indices start at 0?](https://medium.com/analytics-vidhya/array-indexing-0-based-or-1-based-dd89d631d11c)
 
 # Technologies
 
