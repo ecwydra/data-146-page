@@ -1,7 +1,7 @@
 # Introduction to Data Science
 
 Welcome to my data science class page! Here you'll find the work I've completed (exercises and projects), resources I've found helpful throughout the
-semester and new technologies I've started working with.
+semester, and new technologies I've started working with.
 
 # Projects
 
