@@ -20,6 +20,7 @@ semester and new technologies I've started working with.
 * [understanding APIs](https://medium.com/@perrysetgo/what-exactly-is-an-api-69f36968a41f)
 * [why do indices start at 0?](https://medium.com/analytics-vidhya/array-indexing-0-based-or-1-based-dd89d631d11c)
 * [switch statement in python](https://stackoverflow.com/questions/60208/replacements-for-switch-statement-in-python)
+* [apply function vs for loop; how to optimize pandas code](https://engineering.upside.com/a-beginners-guide-to-optimizing-pandas-code-for-speed-c09ef2c6a4d6)
 
 # Technologies
 
