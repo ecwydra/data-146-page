@@ -5,7 +5,7 @@ semester, and new technologies I've started working with.
 
 # Projects
 
-1. [Intro to Python and Pandas | Project #1](project1.md)
+1. [Intro to Python and Pandas](project1.md)
 
 # Exercises
 
