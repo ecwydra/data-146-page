@@ -7,6 +7,7 @@ semester, and new technologies I've started working with.
 
 1. [Intro to Python and Pandas](project1.md)
 2. [Gapminder and Plotting Data](project2/project2.md)
+3. [Boston Housing Modelling](project3.html)
 
 # Exercises
 
