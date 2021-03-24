@@ -13,6 +13,10 @@ semester, and new technologies I've started working with.
 
 1. [02/08/2021 -- Gapminder Data](exercise_1.html)
 
+# Slice of Data Science Analyses
+
+1. [03/24/2021 -- Claire Heinbaugh](sliceOfDataAnalysis.md)
+
 # Resources
 
 * [making brew compatible with M1 chip](https://stackoverflow.com/questions/64963370/error-cannot-install-in-homebrew-on-arm-processor-in-intel-default-prefix-usr)
