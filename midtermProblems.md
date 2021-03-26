@@ -1,5 +1,7 @@
 # Midterm Corrections
 
+This page looks at all the problems I missed on the midterm, analyzes why I got them wrong, and what I can do in the future to make sure I do better.
+
 ## Question 18
 
 I got this problem wrong because of a rounding issue. I cut off the number of decimal points I returned for the test results and the answer was rounded up to 0.602. I attended office hours and after talking with Professor Frazier I think the way to solve this is to not automate the rounding, but to print the whole value and then leave the rounding up to me. 
