@@ -13,7 +13,11 @@ semester, and new technologies I've started working with.
 
 1. [02/08/2021 -- Gapminder Data](exercise_1.html)
 
-# Slice of Data Science Analyses
+# Exam Corrections
+
+* [mid term corrections](midtermProblems.md)
+
+# Slice of Data Science 
 
 1. [03/24/2021 -- Claire Heinbaugh](sliceOfDataAnalysis.md)
 
