@@ -16,7 +16,7 @@ semester, and new technologies I've started working with.
 # Exam Corrections
 
 * [mid term corrections](midtermProblems.md)
-* [mid term script](midterrmAnswerScript.md)
+* [mid term script](midtermAnswerScript.md)
 
 # Slice of Data Science 
 
