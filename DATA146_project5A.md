@@ -1,4 +1,6 @@
-# Project 5 Part 1
+# Project 5 
+
+## Part 1
 
 In order to answer the question of Which of the models produced the best results in predicting wealth of all persons throughout the smaller West African country I processed the given data and then created three models: linear regression, ridge regression, and a lasso regression.
 
@@ -125,3 +127,84 @@ Across both of the target variables, the linear regression performed best accord
 ### Next Steps
 
 If I had more time on this assignment, I'd like to examine three other metrics for evaluating model performance. I'd like to fix how I'm calculating mse, include mean absolute percent error, and create a confusion matrix for each model. I don't think r2 alone is enough to evaluate which model performed the best; especially in this case where almost all r2 values are very close. I wasn't able to use mse in this lab because I had an issue with wealthI where the ridge and lasso models were returning very high mse numbers. Another thing I'd like to do if I had more time is address the graph of optimal alpha values. I tried modifying how I process the data and how I do kfold validation but that didn't seem to work. It's possible that the issue I'm having with optimal alpha is the same thing that's messing up my mse (data formatting is my main suspect).
+
+## Part 2
+
+### Preprocessing
+
+For the second part of the project I followed similar steps to the first part. I imported the data, check for the presence of NaNs, and dropped the target variable column (wealthC). Part of the project specification was combining groups 4 and 3 from the target variable. I took care of this in the data preprocessing stage as well using `y.replace(3, 4)` to replace all wealthC entries with the value of 3 with 4.
+
+### Model Creation
+
+**K Nearest Neighbors**
+
+I created four different KNN models; one for the original data, one for the combined wealthC groups data, one for original data with `'distance'` specification in model creation, and one for combined wealthC groups data with `'distance'` specification to see if the new specification led to improved results. I scaled the data in each case, because with a distance based algorithm, such as knn, it's important that the scale of all variables is evenly weighted so that the knn results aren't thrown off by outlying magnitudes.
+
+![](lab5_images/ogdata.png)
+
+Original Data
+optimal k_range: 76
+test data score after k fold validation: 0.55028
+
+![](lab5_images/moddata.png)
+
+Modified Data
+optimal k_range: 39
+test data score after k fold validation: 0.60711
+
+![](lab5_images/ogdata_dis.png)
+
+Original Data w/ distance: 
+optimal k_range: 37
+test data score after k fold validation: 0.50518
+
+![](lab5_images/moddata_dis.png)
+
+Modified Data w/ distance:
+optimal k_range: 22
+test data score after k fold validation: 0.57528
+
+**Logistic Regression**
+
+I created two logistic regression models; one for the original data and one for the wealthC combined groups data. I initalized the model with a max_iter of 1000 after finding that anything less than 1000 led to a slightly underfit model, while anything above 1000 led to a slightly overfit model. I scaled the data for logistic regression, because logsitic regression employs gradient descent. With gradient descent, the scaling of features can speed up the process and require fewer iterations to reach an optimal solution.
+
+Original Data
+testing score: 0.54465
+training score: 0.55013
+
+Modified Data
+testing score: 0.60029
+training score: 0.59701
+
+**Random Forest Classification**
+
+I created random forest classifiers; one for original data, one for original data scaled, one for wealthC combined groups data, and one for wealthC combined groups data scaled. Within each of these cases, I created four other models having different numbers of estimators (100, 500, 1000, 5000). The numbers below are the calculations of the models from each group that performed the best in terms of r squared value. Scaling the data didn't radically change r squared results. This makes sense, as scaling is generally required for regression algorithms that are distance based but not for tree based algorithms that are generally not impacted as much by feature variance.
+
+Original Data (not scaled) 
+testing score: -0.12722
+training score: 0.54192
+
+Original Data (scaled) 
+testing score: -0.16811
+training score: 0.54865
+
+Modified Data (not scaled)
+testing score: -0.11234
+training score: 0.52743
+
+Modified Data (scaled)
+testing score: -0.13670
+training score: 0.55112
+
+### Conclusions
+
+The scaling findings across the three models are consistent with what we learned in class: distance based models require scaling because those algorithms are sensitive to variance in the data, whereas with tree based models scaling isn't necessary because of random forests' resistance to being impacted by variance in the data. The model that performed the best out of all data and models was the K Nearest Neighbors model with modified data (r squared = 0.60711). However, the logistic regression model for modified data performed closely to the knn model with an r squared value of 0.60029. 
+
+I found that, in general, combining group 3 and 4 in the wealthC target variable did improve the performance of my models. I believe that is because by combining two groups I restricted the classifiers' ability to missclassify. If there are fewer groups, the chance that an algorithm will correctly classify a data point increases, hence the improved model performance.
+
+### References
+
+* [Why is scaling required in KNN and K-Means?](https://medium.com/analytics-vidhya/why-is-scaling-required-in-knn-and-k-means-8129e4d88ed7#:~:text=We%20can%20clearly%20see%20that,like%20KNN%20or%20K%2DMeans.)
+* [Feature Scaling- Why it is required?](https://medium.com/@rahul77349/feature-scaling-why-it-is-required-8a93df1af310)
+* [Do Decision Trees need Feature Scaling?](https://towardsdatascience.com/do-decision-trees-need-feature-scaling-97809eaa60c6)
+
