@@ -142,59 +142,59 @@ I created four different KNN models; one for the original data, one for the comb
 
 ![](lab5_images/ogdata.png)
 
-Original Data
-optimal k_range: 76
-test data score after k fold validation: 0.55028
+Original Data <br>
+optimal k_range: 76 <br>
+test data score after k fold validation: 0.55028 <br>
 
 ![](lab5_images/moddata.png)
 
-Modified Data
-optimal k_range: 39
-test data score after k fold validation: 0.60711
+Modified Data <br>
+optimal k_range: 39 <br>
+test data score after k fold validation: 0.60711 <br>
 
 ![](lab5_images/ogdata_dis.png)
 
-Original Data w/ distance: 
+Original Data w/ distance  <br>
 optimal k_range: 37
 test data score after k fold validation: 0.50518
 
 ![](lab5_images/moddata_dis.png)
 
-Modified Data w/ distance:
-optimal k_range: 22
-test data score after k fold validation: 0.57528
+Modified Data w/ distance <br>
+optimal k_range: 22 <br>
+test data score after k fold validation: 0.57528 <br>
 
 **Logistic Regression**
 
 I created two logistic regression models; one for the original data and one for the wealthC combined groups data. I initalized the model with a max_iter of 1000 after finding that anything less than 1000 led to a slightly underfit model, while anything above 1000 led to a slightly overfit model. I scaled the data for logistic regression, because logsitic regression employs gradient descent. With gradient descent, the scaling of features can speed up the process and require fewer iterations to reach an optimal solution.
 
-Original Data
-testing score: 0.54465
-training score: 0.55013
+Original Data <br>
+testing score: 0.54465 <br>
+training score: 0.55013 <br>
 
-Modified Data
-testing score: 0.60029
-training score: 0.59701
+Modified Data <br>
+testing score: 0.60029 <br>
+training score: 0.59701 <br>
 
 **Random Forest Classification**
 
 I created random forest classifiers; one for original data, one for original data scaled, one for wealthC combined groups data, and one for wealthC combined groups data scaled. Within each of these cases, I created four other models having different numbers of estimators (100, 500, 1000, 5000). The numbers below are the calculations of the models from each group that performed the best in terms of r squared value. Scaling the data didn't radically change r squared results. This makes sense, as scaling is generally required for regression algorithms that are distance based but not for tree based algorithms that are generally not impacted as much by feature variance.
 
-Original Data (not scaled) 
-testing score: -0.12722
-training score: 0.54192
+Original Data (not scaled)  <br>
+testing score: -0.12722 <br>
+training score: 0.54192 <br>
 
-Original Data (scaled) 
-testing score: -0.16811
-training score: 0.54865
+Original Data (scaled)  <br>
+testing score: -0.16811 <br>
+training score: 0.54865 <br>
 
-Modified Data (not scaled)
-testing score: -0.11234
-training score: 0.52743
+Modified Data (not scaled) <br>
+testing score: -0.11234 <br>
+training score: 0.52743 <br>
 
-Modified Data (scaled)
-testing score: -0.13670
-training score: 0.55112
+Modified Data (scaled) <br>
+testing score: -0.13670 <br>
+training score: 0.55112 <br>
 
 ### Conclusions
 
